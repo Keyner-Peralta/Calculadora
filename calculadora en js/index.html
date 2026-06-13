@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Keyner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="box">
+        <header>
+            <h1>Calculadora</h1>
+            <h2>Hecha por Keyner</h2>
+        </header>
+        <div id="saveNumber"></div>
+        <input type="text" class="display" id="display" readonly>
+        
+        <div class="grid">
+            <div class="row">
+               <button class="btn">7</button>
+               <button class="btn">8</button>
+               <button class="btn">9</button>
+               <button class="btn del">DEL</button> 
+            </div>
+            <div class="row">
+               <button class="btn">4</button>
+               <button class="btn">5</button>
+               <button class="btn">6</button>
+               <button class="btn operation-btn">+</button>
+            </div>
+            <div class="row">
+               <button class="btn">1</button>
+               <button class="btn">2</button>
+               <button class="btn">3</button>
+               <button class="btn operation-btn">-</button>
+            </div>
+            <div class="row">
+               <button class="btn">.</button>
+               <button class="btn">0</button>
+               <button class="btn operation-btn">/</button>
+               <button class="btn operation-btn">*</button>
+            </div>
+            <div class="row">
+               <button class="btn special-btn reset">RESET</button>
+               <button class="btn special-btn equals">=</button>
+            </div>
+        </div>
+        <div class="perfil">
+            <p>Mi perfil de github</p>
+            <div class="back">
+                <a href="https://github.com/Keyner-Peralta"
+                    target="_blank"
+                    class="github-link"
+                    title="Mi GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
